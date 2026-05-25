@@ -21,7 +21,7 @@ int ehPrimo(int n1){
     if(n1 == 1){
         return 0;
     }
-    for (int i = 2; i <n1; i++){
+    for (int i = 2; i < n1; i++){
         if(n1 % i == 0){
             cont++;
         }
